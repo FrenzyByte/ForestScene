@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4712835427236114248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58598315677006632}
+  - component: {fileID: 8437223047409670893}
+  m_Layer: 6
+  m_Name: Particles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58598315677006632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4712835427236114248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8437223047409670893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4712835427236114248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08c222ac336e244f87f9f29e03d0c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  breakingWaveSplashes: 1
+  steepnessThreshold: 0.45
+  riseRateThreshold: 4
+  waveLengthThreshold: -4
+  breakingWaveGridStagger: 2
+  turbulenceSplashes: 1
+  turbulenceSplashGridStagger: 4
+  sprayTurbelenceThreshold: 0.122
+  splashParticleSystem:
+    version: 1
+    emitterDesc:
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      minVelocity: {x: 0, y: 0, z: 0, w: 0}
+      maxVelocity: {x: 0, y: 0, z: 0, w: 0}
+      minAcceleration: {x: 0, y: -9.8, z: 0, w: 0}
+      maxAcceleration: {x: 0, y: -9.8, z: 0, w: 0}
+      minOffset: {x: 0, y: 0, z: 0, w: 0}
+      maxOffset: {x: 0, y: 0, z: 0, w: 0}
+      minAngularVelocity: 0.25
+      maxAngularVelocity: 0.5
+      minSize: 0.625
+      maxSize: 0.71428573
+      minLife: 1
+      maxLife: 2
+    maxParticles: 100000
+    material: {fileID: 2100000, guid: 9e83e9ee51b65fe44906742776b28893, type: 2}
+    layer: 6
+  turbulenceSurface: 0
+  surfaceTurblenceThreshold: 0.3
+  surfaceGridStagger: 4
+  surfaceParticlesSystem:
+    version: 1
+    emitterDesc:
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      minVelocity: {x: 0, y: 0, z: 0, w: 0}
+      maxVelocity: {x: 0, y: 0, z: 0, w: 0}
+      minAcceleration: {x: 0, y: 0, z: 0, w: 0}
+      maxAcceleration: {x: 0, y: 0, z: 0, w: 0}
+      minOffset: {x: 0, y: 0, z: 0, w: 0}
+      maxOffset: {x: 0, y: 0, z: 0, w: 0}
+      minAngularVelocity: 0
+      maxAngularVelocity: 0
+      minSize: 0.5
+      maxSize: 0.7
+      minLife: 1
+      maxLife: 2
+    maxParticles: 100000
+    material: {fileID: 2100000, guid: 8050d46d579c02a40ba1cac991c90d90, type: 2}
+    layer: 6
+  renderOffscreen: 1
