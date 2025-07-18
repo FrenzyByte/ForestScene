@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.frenzybyte.fluidfrenzy": "file:D:/Dev/FluidFrenzy/ShallowWater/FluidFrenzy",
     "com.unity.ai.navigation": "2.0.6",
     "com.unity.cinemachine": "3.1.2",
     "com.unity.cloud.gltfast": "6.12.1",
